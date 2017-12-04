@@ -1,0 +1,82 @@
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.steak {
+    background-image: url('http://food.fnr.sndimg.com/content/dam/images/food/fullset/2007/1/2/0/valentines_steak.jpg.rend.hgtvcom.616.462.suffix/1385127027449.jpeg');
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#steaktitle {
+    position: absolute;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-width: 15px;
+    font-size: 80px;
+    font-weight: bold;
+    top: 40%; 
+    left: 30%; 
+    width: 500px; 
+    text-align: center;
+
+}
+
+.grilledcheese {
+    background-image: url('https://atmedia.imgix.net/c3a8c1079c6970caf7188768531f20699d22f0d7?auto=format&q=45&w=600.0&h=800.0&fit=max&cs=strip');
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#grilledcheesetitle {
+    position: relative;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-width: 15px;
+    font-size: 80px;
+    font-weight: bold;
+    top: 40%; 
+    left: 30%; 
+    width: 500px; 
+    text-align: center;
+}
+
+.sushi {
+    background-image: url('https://img.grouponcdn.com/deal/hfefAup1zQWBE2K8sWURgS27xax/hf-846x508/v1/c700x420.jpg');
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#sushititle {
+    position: relative;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-width: 15px;
+    font-size: 80px;
+    font-weight: bold;
+    top: 40%; 
+    left: 30%; 
+    width: 500px; 
+    text-align: center;
+}
